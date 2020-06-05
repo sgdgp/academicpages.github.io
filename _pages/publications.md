@@ -47,12 +47,12 @@ Sankarshan Mridha, <ins> Sayan Ghosh </ins>, Robin Singh, Sourangshu Bhattachary
 
 <div id="pPatents" class="tabcontent" markdown="1">
 
-**Flow-Based Color Transfer from Source Graphic to Target Graphic**  
-Ankit Phogat, <ins> Sayan Ghosh </ins>, Vineet Batra, Stephen DiVerdi, Scott Cohen  
-*Filed Aug 2019*
-
 **Weighted Color Palette Generation**  
-Ankit Phogat, <ins> Sayan Ghosh </ins>, Vineet Batra
-*Filed Nov 2019*
+Ankit Phogat, <ins> Sayan Ghosh </ins>, Vineet Batra  
+*Filed Nov 2019*  
+
+**Flow-Based Color Transfer from Source Graphic to Target Graphic**    
+Ankit Phogat, <ins> Sayan Ghosh </ins>, Vineet Batra, Stephen DiVerdi, Scott Cohen   
+*Filed Aug 2019*
 
 </div>
