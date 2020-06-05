@@ -5,7 +5,11 @@ permalink: /publications/
 sitemap: false
 author_profile: true
 ---
-
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'pPublications')" id="pPublicationsDefaultOpen">Publications</button>
   <button class="tablinks" onclick="openCity(event, 'pPatents')">Patents</button>
@@ -84,3 +88,5 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 </script>
+</body>
+</html>
