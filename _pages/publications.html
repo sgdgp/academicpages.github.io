@@ -8,7 +8,7 @@ author_profile: true
 
 <script>
     document.getElementById("pPublicationsDefaultOpen").click();
-    function openCity(evt, cityName) {
+    function openCity(cityName) {
       // Declare all variables
       var i, tabcontent, tablinks;
     
@@ -31,8 +31,8 @@ author_profile: true
 </script>
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'pPublications')" id="pPublicationsDefaultOpen">Publications</button>
-  <button class="tablinks" onclick="openCity(event, 'pPatents')">Patents</button>
+  <button class="tablinks" onclick="openCity('pPublications')" id="pPublicationsDefaultOpen">Publications</button>
+  <button class="tablinks" onclick="openCity('pPatents')">Patents</button>
 </div>
 
 <!-- Tab content -->
