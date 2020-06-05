@@ -8,7 +8,7 @@ author_profile: true
 
 <script>
     document.getElementById("pPublicationsDefaultOpen").click();
-    function openCity(cityName) {
+    function openCity(event,cityName) {
       // Declare all variables
       var i, tabcontent, tablinks;
     
@@ -29,13 +29,12 @@ author_profile: true
       evt.currentTarget.className += " active";
     }</script>
 <div class="tab">
-  <button class="tablinks" onclick="openCity('pPublications')" id="pPublicationsDefaultOpen">Publications</button>
-  <button class="tablinks" onclick="openCity('pPatents')">Patents</button>
+  <button class="tablinks" onclick="openCity(event, 'pPublications')" id="pPublicationsDefaultOpen">Publications</button>
+  <button class="tablinks" onclick="openCity(event,'pPatents')">Patents</button>
 </div>
 
 <!-- Tab content -->
 <div id="pPublications" class="tabcontent" markdown="1">
-
 **Analysing the Extent of Misinformation in Cancer Related Tweets**  
 *ICWSM 2020* (to appear)  
 Rakesh Bal, Sayan Sinha, Swastika Dutta, Rishabh Joshi, <ins> Sayan Ghosh </ins>, Ritam Dutt  
@@ -80,3 +79,25 @@ Ankit Phogat, <ins> Sayan Ghosh </ins>, Vineet Batra
 *Filed Nov 2019*
 
 </div>
+<script>
+    document.getElementById("pPublicationsDefaultOpen").click();
+    function openCity(event,cityName) {
+      // Declare all variables
+      var i, tabcontent, tablinks;
+    
+      // Get all elements with class="tabcontent" and hide them
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+    
+      // Get all elements with class="tablinks" and remove the class "active"
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+    
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }</script>
