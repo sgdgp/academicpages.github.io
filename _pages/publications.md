@@ -6,16 +6,6 @@ sitemap: false
 author_profile: true
 ---
 
-<!-- {% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications %}
-  {% include archive-single.html %}
-{% endfor %} -->
-
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'pPublications')" id="pPublicationsDefaultOpen">Publications</button>
   <button class="tablinks" onclick="openCity(event, 'pPatents')">Patents</button>
