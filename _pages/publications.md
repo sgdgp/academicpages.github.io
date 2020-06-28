@@ -13,7 +13,7 @@ author_profile: true
 <!-- Tab content -->
 <div id="pPublications" class="tabcontent" markdown="1">
 **Analysing the Extent of Misinformation in Cancer Related Tweets**  
-*ICWSM 2020* (to appear)  
+*ICWSM 2020*  
 Rakesh Bal, Sayan Sinha, Swastika Dutta, Rishabh Joshi, <ins> Sayan Ghosh </ins>, Ritam Dutt  
 [[pdf]](https://arxiv.org/pdf/2003.13657.pdf)  
 
