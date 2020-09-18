@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year PhD student in Computer Science at The University of North Carolina at Chapel Hill. I am part of the [UNC-NLP](https://nlp.cs.unc.edu/) group where I am advised by [Prof. Shashank Srivastava](https://www.ssriva.com/). My current research interests lie in language grounding.
+I am a second year PhD student in Computer Science at The University of North Carolina at Chapel Hill. I am part of the [UNC-NLP](https://nlp.cs.unc.edu/) group where I am advised by [Prof. Shashank Srivastava](https://www.ssriva.com/). My current research interests lie in language grounding.
 
 Prior to this, I graduated from [Indian Institute of Technology (IIT) Kharagpur](http://www.iitkgp.ac.in/) in 2018 with the degree of Bachelor of Technology (Hons.) in Computer Science and Engineering. My undergraduate thesis project was under the supervision of [Prof. Niloy Ganguly](http://www.facweb.iitkgp.ac.in/~niloy/).
 

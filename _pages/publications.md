@@ -12,6 +12,10 @@ author_profile: true
 
 <!-- Tab content -->
 <div id="pPublications" class="tabcontent" markdown="1">
+**PRover: Proof Generation for Interpretable Reasoning over Rules**  
+*EMNLP 2020 (to appear)*  
+Swarnadeep Saha, <ins> Sayan Ghosh </ins>, Shashank Srivastava, and Mohit Bansal  
+
 **Analysing the Extent of Misinformation in Cancer Related Tweets**  
 *ICWSM 2020*  
 Rakesh Bal, Sayan Sinha, Swastika Dutta, Rishabh Joshi, <ins> Sayan Ghosh </ins>, Ritam Dutt  
